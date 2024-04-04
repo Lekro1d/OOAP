@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Adapter</string>
+    <string name="title_hint">Введите любое название картинки</string>
+    <string name="type_image">Категория картинки:</string>
+    <string name="created_image">Дата публикации:</string>
+    <string name="author_image">Автор картинки:</string>
+
+    <string name="btn_send_pattern">С паттерном</string>
+    <string name="btn_send">Без паттерна</string>
+</resources>

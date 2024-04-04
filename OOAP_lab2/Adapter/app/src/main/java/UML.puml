@@ -1,0 +1,28 @@
+@startuml
+class ClientActivity
+
+class ImageAdapter {
+    getPhoto(): AppImage
+}
+
+interface Image {
+    getPhoto(): AppImage
+}
+
+class AppImage {
+    url: String
+    author: String
+    createdImage: String
+    likes: Int
+}
+
+class WebAPI
+
+ClientActivity -> Image
+Image <|-- AppImage
+
+Image <|. ImageAdapter
+ImageAdapter -> WebAPI
+
+
+@enduml
