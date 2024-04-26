@@ -1,0 +1,56 @@
+@startuml
+interface Visitor {
+    +visit(fastFood: FastFood)
+    +visit(salad: Salad)
+}
+class Calories {
+    +ingredientsText: String
+    +calsSum: Int
+    +visit(fastFood: FastFood)
+    +visit(salad: Salad)
+}
+
+class Ingredient {
+    +ingredientsText: String
+    +visit(fastFood: FastFood)
+    +visit(salad: Salad)
+}
+
+class Rating {
+    +textRating: String
+    +visit(fastFood: FastFood)
+    +visit(salad: Salad)
+}
+
+Visitor <|.. Calories
+Visitor <|.. Ingredient
+Visitor <|.. Rating
+
+interface Food {
+    +accept(visitor: Visitor)
+}
+
+class Salad{
+    +accept(visitor: Visitor)
+}
+
+class FastFood{
+    +accept(visitor: Visitor)
+}
+
+Food <|.. Salad
+Food <|.. FastFood
+
+FastFood <.. Visitor
+Salad <.. Visitor
+
+class Order {
+
+}
+
+Calories <-- Order
+Rating <-- Order
+Ingredient <-- Order
+
+Food -o Order
+@enduml

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Visitor</string>
+    <string name="welcome">Добро пожаловать в ресторан Братья Цыплята</string>
+    <string name="menu">Меню</string>
+    <string name="order">Заказать</string>
+    <string name="name_cat1">Густрипсы</string>
+    <string name="name_cat2">Ножки Саламанки</string>
+    <string name="name_cat3">Салат МакГилл</string>
+    <string name="name_cat4">Салат Белый</string>
+    
+    <string name="btn_ingredients">Состав</string>
+    <string name="btn_calories">Калории</string>
+    <string name="btn_rating">Рейтинг</string>
+    <string name="text_visitors">Вы можете посмотреть</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
