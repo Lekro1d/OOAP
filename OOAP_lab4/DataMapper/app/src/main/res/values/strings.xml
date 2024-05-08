@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DataMapper</string>
+    <string name="company">Компании</string>
+    <string name="hint_employee">Введите любого пользователя</string>
+    <string name="all_employee">Список всех сотрудников</string>
+    <string name="company_employee">Список сотрудников с выбраной компанией</string>
+    <string name="all_company">Список компаний</string>
+
+    <string name="add_company">Добавить компанию</string>
+    <string name="hint_adress">Введите любой адрес</string>
+    <string name="hint_company">Введите любую компанию</string>
+
+    <string name="add_employee">Добавить сотрудника</string>
+    <string name="hint_firstName_employee">Введите имя сотрудника</string>
+    <string name="hint_secondName_employee">Введите фамилию сотрудника</string>
+
+    <string name="employee_text">сотрудник(-ца):</string>
+    <string name="company_text">компания:</string>
+    <string name="address_text">адрес:</string>
+</resources>

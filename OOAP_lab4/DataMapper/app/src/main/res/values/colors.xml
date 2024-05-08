@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_gray">#f3f3f3</color>
+    <color name="dark_gray">#A9A9A9</color>
+    <color name="dim_gray">#696969</color>
+    <color name="azure">#F5F5F5</color>
+    <color name="dim_gray22">#696969</color>
+    <color name="dim_gray23">#696969</color>
+    <color name="dim_gray32">#696969</color>
+</resources>
